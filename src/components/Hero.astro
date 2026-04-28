@@ -1,7 +1,53 @@
-<div>
-    <img src="/heroImage.png" alt="Profe Edu Fitness">
-    <img src="/heroDeco.png" alt="Deco Placeholder">
-    <img src="/heroLogo.png" alt="Profe Edu Logo">
-    <p>Registrate para obtener contenido exclusivo y planes personalizados que te ayuden a convertirte en tu mejor versión</p>
-    <a href="">REGISTRARTE</a>
-</div>
+<section
+    class="grid grid-cols-1 md:grid-cols-2 bg-[#002345] min-h-screen h-screen overflow-hidden"
+>
+    <div
+        class="flex flex-col justify-center items-center p-12 lg:p-24 space-y-12"
+    >
+        <div class="space-y-4">
+            <img
+                src="/heroImage.png"
+                alt="Profe Edu Fitness"
+                class="h-auto w-128"
+            />
+        </div>
+
+        <p
+            class="text-xl md:text-2xl lg:text-4xl text-slate-200 max-w-2xl leading-tight text-center"
+        >
+            Registrate para obtener contenido exclusivo y planes personalizados
+            que te ayuden a convertirte en tu mejor versión.
+        </p>
+
+        <a
+            href="#"
+            class="inline-block w-fit px-16 md:px-24 py-5 md:py-6 bg-[#56b677] hover:bg-[#4ea36a] text-white font-bold rounded-full transition-all hover:scale-105 tracking-widest text-base md:text-lg lg:text-xl uppercase text-center"
+        >
+            REGISTRARTE
+        </a>
+    </div>
+
+    <div
+        class="relative flex items-center justify-end pr-0 md:pr-12 py-12 h-full"
+    >
+        <div
+            class="relative w-[85%] h-full bg-[#5eb67d] rounded-tr-[200px] md:rounded-tr-[350px] overflow-hidden"
+        >
+            <img
+                src="/heroDeco.png"
+                alt="Deco Pattern"
+                class="w-full h-full object-cover"
+            />
+
+            <div
+                class="absolute inset-x-0 bottom-0 top-auto h-[90%] flex items-end justify-center"
+            >
+                <img
+                    src="/heroCoach.png"
+                    alt="Profe Edu"
+                    class="h-full w-auto max-h-none block object-contain"
+                />
+            </div>
+        </div>
+    </div>
+</section>
